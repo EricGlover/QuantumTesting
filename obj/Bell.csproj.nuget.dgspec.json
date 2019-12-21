@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ericglover/Desktop/Programming/quantumComputing/Bell/Bell.csproj": {}
+  },
+  "projects": {
+    "/Users/ericglover/Desktop/Programming/quantumComputing/Bell/Bell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ericglover/Desktop/Programming/quantumComputing/Bell/Bell.csproj",
+        "projectName": "Bell",
+        "projectPath": "/Users/ericglover/Desktop/Programming/quantumComputing/Bell/Bell.csproj",
+        "packagesPath": "/Users/ericglover/.nuget/packages/",
+        "outputPath": "/Users/ericglover/Desktop/Programming/quantumComputing/Bell/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ericglover/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Quantum.Development.Kit": {
+              "target": "Package",
+              "version": "[0.10.1912.501, )"
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.10.1912.501, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

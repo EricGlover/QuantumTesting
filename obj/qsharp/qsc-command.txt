@@ -1,0 +1,15 @@
+:: files ::
+Bell.qs
+BellState.qs
+HelloWorld.qs
+:: qsim ::
+:: references ::
+/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Intrinsic.dll
+/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll
+/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulation.Core.dll
+/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulators.dll
+/Users/ericglover/.nuget/packages/microsoft.quantum.standard/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Standard.dll
+/Users/ericglover/.nuget/packages/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+:: command ::
+dotnet "/Users/ericglover/.nuget/packages/microsoft.quantum.development.kit/0.10.1912.501/build/../tools/qsc/Microsoft.Quantum.CsharpGeneration.App.dll"  --qst Bell --input "Bell.qs" "BellState.qs" "HelloWorld.qs" --references "/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Intrinsic.dll" "/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll" "/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulation.Core.dll" "/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll" "/Users/ericglover/.nuget/packages/microsoft.quantum.simulators/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Simulators.dll" "/Users/ericglover/.nuget/packages/microsoft.quantum.standard/0.10.1912.501/lib/netstandard2.1/Microsoft.Quantum.Standard.dll" "/Users/ericglover/.nuget/packages/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll" --output obj/qsharp/src/
